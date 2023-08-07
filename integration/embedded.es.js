@@ -19171,7 +19171,7 @@ const _sfc_main$J = {
     const countryCode = computed(() => store2.state.countryCode);
     watch(loginQuery.fetching, (fetchStatus) => {
       if (!fetchStatus) {
-        // const loginStyle = JSON.parse(loginQuery.data.value.brand.loginStyle);
+        const loginStyle = JSON.parse(loginQuery.data.value.brand.loginStyle);
         // textColor.value = { color: `${loginStyle.text_color} !important` };
         // textColorHex.value = loginStyle.text_color;
         // secondaryTextColor.value = {
