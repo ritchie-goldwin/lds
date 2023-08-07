@@ -19171,29 +19171,29 @@ const _sfc_main$J = {
     const countryCode = computed(() => store2.state.countryCode);
     watch(loginQuery.fetching, (fetchStatus) => {
       if (!fetchStatus) {
-        const loginStyle = JSON.parse(loginQuery.data.value.brand.loginStyle);
-        textColor.value = { color: `${loginStyle.text_color} !important` };
-        textColorHex.value = loginStyle.text_color;
-        secondaryTextColor.value = {
-          color: `${loginStyle.secondary_text_color}!important`,
-        };
-        buttonColor.value = { color: `${loginStyle.button_color} !important` };
-        modalPrimaryColor.value = loginStyle.modal_color;
-        subBackground.value = {
-          background: `${loginStyle.sub_background} !important`,
-          "border-color": `${loginStyle.sub_background} !important`,
-        };
-        inputBorder.value = {
-          "border-color": `${loginStyle.text_color} !important`,
-        };
-        modalSecondaryColor.value = loginStyle.modal_background;
-        placeholderColor.value = {
-          "--placeholder-color": loginStyle.placeholder_color,
-        };
-        linkColor.value = { color: `${loginStyle.link_color} !important` };
-        mainBackground.value = {
-          background: `${loginStyle.main_background} !important`,
-        };
+        // const loginStyle = JSON.parse(loginQuery.data.value.brand.loginStyle);
+        // textColor.value = { color: `${loginStyle.text_color} !important` };
+        // textColorHex.value = loginStyle.text_color;
+        // secondaryTextColor.value = {
+        //   color: `${loginStyle.secondary_text_color}!important`,
+        // };
+        // buttonColor.value = { color: `${loginStyle.button_color} !important` };
+        // modalPrimaryColor.value = loginStyle.modal_color;
+        // subBackground.value = {
+        //   background: `${loginStyle.sub_background} !important`,
+        //   "border-color": `${loginStyle.sub_background} !important`,
+        // };
+        // inputBorder.value = {
+        //   "border-color": `${loginStyle.text_color} !important`,
+        // };
+        // modalSecondaryColor.value = loginStyle.modal_background;
+        // placeholderColor.value = {
+        //   "--placeholder-color": loginStyle.placeholder_color,
+        // };
+        // linkColor.value = { color: `${loginStyle.link_color} !important` };
+        // mainBackground.value = {
+        //   background: `${loginStyle.main_background} !important`,
+        // };
         const div = document.getElementById("mulah-app");
         div.style.cssText += `background-color: ${loginStyle.main_background} !important;`;
         document.body.style.setProperty(
