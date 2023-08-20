@@ -21720,7 +21720,7 @@ function _sfc_render$D(_ctx, _cache, $props, $setup, $data, $options) {
         id: "Layer_2",
         "data-name": "Layer 2",
         xmlns: "http://www.w3.org/2000/svg",
-        viewBox: "0 0 65.41 80.25",
+        viewBox: "0 0 30 30",
       },
       [_hoisted_1$C, _hoisted_2$A],
       4
