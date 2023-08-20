@@ -19342,7 +19342,7 @@ function _sfc_render$J(_ctx, _cache, $props, $setup, $data, $options) {
               "p",
               {
                 class: "mulah-home__welcome-header",
-                style: $setup.textColor,
+                // style: $setup.textColor,
               },
               "Hello,",
               4
@@ -19351,14 +19351,16 @@ function _sfc_render$J(_ctx, _cache, $props, $setup, $data, $options) {
               "p",
               {
                 class: "mulah-home__welcome-header",
-                style: $setup.textColor,
+                // style: $setup.textColor,
               },
               "Welcome !",
               4
             ),
             createVNode(
               "p",
-              { style: $setup.secondaryTextColor },
+              { 
+                // style: $setup.secondaryTextColor
+              },
               "Check Your Loyalty Points & Rewards",
               4
             ),
