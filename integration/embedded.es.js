@@ -10509,7 +10509,7 @@ function _sfc_render$L(_ctx, _cache, $props, $setup, $data, $options) {
               createVNode(
                 "button",
                 {
-                  style: $setup.groupF,
+                  // style: $setup.groupF,
                   class: "mulah-modal__content-button",
                   onClick:
                     _cache[1] ||
@@ -19358,7 +19358,7 @@ function _sfc_render$J(_ctx, _cache, $props, $setup, $data, $options) {
             ),
             createVNode(
               "p",
-              { 
+              {
                 // style: $setup.secondaryTextColor
               },
               "Check Your Loyalty Points & Rewards",
@@ -19693,7 +19693,7 @@ const _sfc_render$H = /* @__PURE__ */ _withId$4(
                 createVNode(
                   "button",
                   {
-                    style: $setup.groupF,
+                    // style: $setup.groupF,
                     class: "mulah-modal__content-button-success",
                     onClick:
                       _cache[1] ||
@@ -21890,44 +21890,22 @@ const _hoisted_1$z = /* @__PURE__ */ createVNode("title", null, "TnC", -1);
 const _hoisted_2$x = /* @__PURE__ */ createVNode(
   "path",
   {
-    d: "M2807.18,321.46l-.17-78.58h90.52v234H2728.61V321.42Zm-90.49-4V488.82h192.75V231H2803.92Z",
-    transform: "translate(-2716.69 -230.97)",
+    d: "M9.375 8.4375H13.125M9.375 15H20.625M9.375 18.75H20.625M9.375 22.5H13.125M7.5 27.1875H22.5C22.9973 27.1875 23.4742 26.99 23.8258 26.6383C24.1775 26.2867 24.375 25.8098 24.375 25.3125V4.6875C24.375 4.19022 24.1775 3.71331 23.8258 3.36167C23.4742 3.01004 22.9973 2.8125 22.5 2.8125H7.5C7.00272 2.8125 6.52581 3.01004 6.17417 3.36167C5.82254 3.71331 5.625 4.19022 5.625 4.6875V25.3125C5.625 25.8098 5.82254 26.2867 6.17417 26.6383C6.52581 26.99 7.00272 27.1875 7.5 27.1875Z",
+    fill: "white",
+    stroke: "black",
+    "stroke-width": 2,
+    "stroke-linecap": "round",
+    "stroke-linejoin": "round",
   },
   null,
   -1
 );
 const _hoisted_3$u = /* @__PURE__ */ createVNode(
-  "rect",
+  "path",
   {
-    x: "2745.63",
-    y: "348.53",
-    width: "130.63",
-    height: "10.42",
-    transform: "translate(2905.19 476.51) rotate(180)",
-  },
-  null,
-  -1
-);
-const _hoisted_4$q = /* @__PURE__ */ createVNode(
-  "rect",
-  {
-    x: "2745.63",
-    y: "389.9",
-    width: "130.63",
-    height: "10.42",
-    transform: "translate(2905.19 559.25) rotate(180)",
-  },
-  null,
-  -1
-);
-const _hoisted_5$q = /* @__PURE__ */ createVNode(
-  "rect",
-  {
-    x: "2745.63",
-    y: "431.46",
-    width: "130.63",
-    height: "10.42",
-    transform: "translate(2905.19 642.38) rotate(180)",
+    d: "M20.625 8.90625C20.8839 8.90625 21.0938 8.69638 21.0938 8.4375C21.0938 8.17862 20.8839 7.96875 20.625 7.96875C20.3661 7.96875 20.1562 8.17862 20.1562 8.4375C20.1562 8.69638 20.3661 8.90625 20.625 8.90625Z",
+    fill: "black",
+    stroke: "black",
   },
   null,
   -1
@@ -21946,9 +21924,9 @@ function _sfc_render$A(_ctx, _cache, $props, $setup, $data, $options) {
         id: "Layer_6",
         "data-name": "Layer 6",
         xmlns: "http://www.w3.org/2000/svg",
-        viewBox: "0 0 192.75 257.85",
+        viewBox: "0 0 30 30",
       },
-      [_hoisted_1$z, _hoisted_2$x, _hoisted_3$u, _hoisted_4$q, _hoisted_5$q],
+      [_hoisted_1$z, _hoisted_2$x, _hoisted_3$u],
       4
     )
   );
@@ -21968,7 +21946,8 @@ const _hoisted_1$y = /* @__PURE__ */ createVNode(
   "path",
   {
     class: "cls-1",
-    d: "M0.98,64.99L33.464,32.5,0.98,0.01H28.534L61.02,32.5,28.534,64.99H0.98Z",
+    d: "M4.63139 1.43148C4.46736 1.59557 4.37521 1.81809 4.37521 2.05011C4.37521 2.28212 4.46736 2.50464 4.63139 2.66873L8.96264 6.99998L4.63139 11.3312C4.472 11.4963 4.38381 11.7173 4.3858 11.9467C4.3878 12.1761 4.47982 12.3956 4.64205 12.5578C4.80428 12.7201 5.02375 12.8121 5.25317 12.8141C5.48259 12.8161 5.70362 12.7279 5.86864 12.5685L10.8185 7.61861C10.9826 7.45452 11.0747 7.232 11.0747 6.99998C11.0747 6.76796 10.9826 6.54544 10.8185 6.38136L5.86864 1.43148C5.70456 1.26744 5.48204 1.17529 5.25002 1.17529C5.018 1.17529 4.79548 1.26744 4.63139 1.43148Z",
+    fill: "black",
   },
   null,
   -1
@@ -21987,7 +21966,7 @@ function _sfc_render$z(_ctx, _cache, $props, $setup, $data, $options) {
         id: "Layer_7",
         "data-name": "Layer 7",
         xmlns: "http://www.w3.org/2000/svg",
-        viewBox: "0 0 62 65",
+        viewBox: "0 0 14 14",
       },
       [_hoisted_1$y],
       4
@@ -22013,48 +21992,49 @@ const _hoisted_1$x = /* @__PURE__ */ createVNode(
 const _hoisted_2$w = /* @__PURE__ */ createVNode(
   "path",
   {
-    d: "M2983.24,3369.25c0,1,0,1.94-.08,2.89s-.12,1.92-.21,2.86c-.15,1.42-.34,2.83-.59,4.21s-.61,3-1,4.47a57.06,57.06,0,0,1-2.86,8.19c-.17.37-.34.75-.52,1.12-.61,1.31-1.26,2.6-2,3.85l-.65,1.12a56.77,56.77,0,0,1-9.56,12l-1.08,1c-.62.56-1.25,1.11-1.89,1.64-.42.35-.85.7-1.28,1-1,.75-1.94,1.47-2.94,2.15l-.44.29c-1.33.89-2.69,1.72-4.1,2.5-1.26.7-2.56,1.35-3.89,2l-.24.11a55.43,55.43,0,0,1-8.17,2.92c-.59.16-1.19.32-1.79.46a56.85,56.85,0,0,1-8.71,1.36c-1,.07-1.92.12-2.88.14-.49,0-1,0-1.46,0s-1,0-1.45,0c-1,0-1.92-.07-2.88-.14a56.66,56.66,0,0,1-8.71-1.36c-.6-.14-1.2-.3-1.8-.46a55.84,55.84,0,0,1-8.17-2.92l-.24-.11c-1.18-.54-2.34-1.11-3.48-1.73-1.55-.84-3.05-1.74-4.51-2.72l-.43-.29c-1-.68-2-1.4-2.94-2.15-.43-.33-.86-.68-1.28-1-.65-.53-1.28-1.08-1.9-1.64s-1.36-1.26-2-1.91a56.28,56.28,0,0,1-8.62-11.1c-.23-.37-.44-.74-.65-1.12-.71-1.25-1.37-2.54-2-3.85l-.51-1.12a55.86,55.86,0,0,1-2.86-8.19q-.58-2.2-1-4.47c-.25-1.38-.45-2.79-.59-4.21-.1-.94-.17-1.89-.22-2.86s-.07-1.92-.07-2.89-.41-1.94-.35-2.9c0-.59-.31-1.17-.31-1.76h0c0-.36.49-.73.52-1.09s.3-.71.34-1.06c.12-1.06.39-2.11.57-3.15.27-1.51.66-3,1-4.46a54.43,54.43,0,0,1,2.89-8.19c.08-.19.18-.38.26-.57s.18-.37.27-.56c.6-1.31,1.27-2.59,2-3.85l.65-1.12a56.75,56.75,0,0,1,9.57-12c.35-.34.71-.67,1.07-1,.62-.56,1.25-1.1,1.9-1.64.42-.35.85-.69,1.28-1,1-.74,1.93-1.46,2.94-2.14l.43-.3a56.6,56.6,0,0,1,8-4.45l.24-.1a55.88,55.88,0,0,1,8.17-2.93l1.8-.46a55.46,55.46,0,0,1,8.71-1.35c1-.07,1.91-.13,2.88-.15l1.45,0,1.46,0c1,0,1.92.08,2.88.15a55.64,55.64,0,0,1,8.71,1.35l1.79.46a55.46,55.46,0,0,1,8.17,2.93l.24.1a55.5,55.5,0,0,1,8,4.45l.44.3c1,.68,2,1.4,2.94,2.14.43.34.86.68,1.28,1,.64.54,1.27,1.08,1.89,1.64l1.06,1a56.54,56.54,0,0,1,9.58,12l.65,1.12c.71,1.26,1.36,2.54,2,3.85.18.38.35.75.52,1.13a56.63,56.63,0,0,1,2.86,8.19c.38,1.46.72,2.95,1,4.46s.44,2.79.59,4.21l.12,1.33c0,.51.07,1,.09,1.53C2983.21,3367.31,2983.24,3368.28,2983.24,3369.25Z",
-    transform: "translate(-2832.98 -3312.95)",
+    d: "M14.9999 1.5625C13.4252 1.5625 11.915 2.18806 10.8015 3.30155C9.688 4.41505 9.06245 5.92528 9.06245 7.5C9.06245 9.07472 9.688 10.5849 10.8015 11.6984C11.915 12.8119 13.4252 13.4375 14.9999 13.4375C16.5747 13.4375 18.0849 12.8119 19.1984 11.6984C20.3119 10.5849 20.9374 9.07472 20.9374 7.5C20.9374 5.92528 20.3119 4.41505 19.1984 3.30155C18.0849 2.18806 16.5747 1.5625 14.9999 1.5625ZM10.9374 7.5C10.9374 6.42256 11.3655 5.38925 12.1273 4.62738C12.8892 3.86551 13.9225 3.4375 14.9999 3.4375C16.0774 3.4375 17.1107 3.86551 17.8726 4.62738C18.6344 5.38925 19.0624 6.42256 19.0624 7.5C19.0624 8.57744 18.6344 9.61075 17.8726 10.3726C17.1107 11.1345 16.0774 11.5625 14.9999 11.5625C13.9225 11.5625 12.8892 11.1345 12.1273 10.3726C11.3655 9.61075 10.9374 8.57744 10.9374 7.5ZM14.9999 15.3125C12.1087 15.3125 9.4437 15.97 7.46995 17.08C5.52495 18.175 4.06245 19.8325 4.06245 21.875V22.0025C4.0612 23.455 4.05995 25.2775 5.6587 26.58C6.44495 27.22 7.5462 27.6763 9.0337 27.9762C10.5237 28.2788 12.4674 28.4375 14.9999 28.4375C17.5324 28.4375 19.4749 28.2788 20.9674 27.9762C22.4549 27.6763 23.5549 27.22 24.3424 26.58C25.9412 25.2775 25.9387 23.455 25.9374 22.0025V21.875C25.9374 19.8325 24.4749 18.175 22.5312 17.08C20.5562 15.97 17.8924 15.3125 14.9999 15.3125ZM5.93745 21.875C5.93745 20.8113 6.71495 19.6562 8.3887 18.715C10.0337 17.79 12.3687 17.1875 15.0012 17.1875C17.6312 17.1875 19.9662 17.79 21.6112 18.715C23.2862 19.6562 24.0624 20.8113 24.0624 21.875C24.0624 23.51 24.0124 24.43 23.1574 25.125C22.6949 25.5025 21.9199 25.8712 20.5949 26.1387C19.2737 26.4062 17.4674 26.5625 14.9999 26.5625C12.5324 26.5625 10.7249 26.4062 9.40495 26.1387C8.07995 25.8712 7.30495 25.5025 6.84245 25.1262C5.98745 24.43 5.93745 23.51 5.93745 21.875Z",
+    "fill-rule": "evenodd",
+    "clip-rule": "evenodd",
   },
   null,
   -1
 );
-const _hoisted_3$t = /* @__PURE__ */ createVNode(
-  "path",
-  {
-    d: "M2870.83,3364.56l0,0h0Zm-1-.51.15.08a5.41,5.41,0,0,0,.87.43l-.19-.11C2870.39,3364.31,2870.07,3364.18,2869.81,3364.05Z",
-    transform: "translate(-2832.98 -3312.95)",
-  },
-  null,
-  -1
-);
-const _hoisted_4$p = /* @__PURE__ */ createVNode(
-  "path",
-  {
-    d: "M2869.81,3364.05c.26.13.58.26.83.4-.2-.11-.45-.22-.68-.32Z",
-    transform: "translate(-2832.98 -3312.95)",
-  },
-  null,
-  -1
-);
-const _hoisted_5$p = /* @__PURE__ */ createVNode(
-  "path",
-  {
-    d: "M2870.87,3364.58h0l0,0Z",
-    transform: "translate(-2832.98 -3312.95)",
-  },
-  null,
-  -1
-);
-const _hoisted_6$l = /* @__PURE__ */ createVNode(
-  "path",
-  {
-    d: "M3020.33,3479.42v58.29c0,1.2-.28,2.24-1.43,2.24H2835c-1.14,0-1.81-1-1.81-2.24v-58.29c0-.94-.23-1.87-.18-2.8a56.86,56.86,0,0,1,14.82-35.92c.26-.27.46-.55.72-.82a54.33,54.33,0,0,1,15-11.07l1-.49c1.54-.72,3.11-1.37,4.73-1.94l1.07-.37c1.45-.48,2.92-.89,4.42-1.24a74.56,74.56,0,0,0,5.71,5,77.66,77.66,0,0,0,16.43,9.85q1.65.74,3.33,1.38a73.21,73.21,0,0,0,26.69,5,73.41,73.41,0,0,0,15.32-1.91c.62-.13,1.25-.73,1.87-.73h2.79c2.43,0,4.83-1.55,7.2-2.49.94-.37,1.88-.61,2.81-1a62.83,62.83,0,0,0,13-7.22h0c.45,0,.9-.81,1.34-1.14a80.33,80.33,0,0,0,7.66-6.57c23.08,5.38,40.36,26.42,41.56,51.82C3020.45,3477.59,3020.33,3478.48,3020.33,3479.42Z",
-    transform: "translate(-2832.98 -3312.95)",
-  },
-  null,
-  -1
-);
+// const _hoisted_3$t = /* @__PURE__ */ createVNode(
+//   "path",
+//   {
+//     d: "M2870.83,3364.56l0,0h0Zm-1-.51.15.08a5.41,5.41,0,0,0,.87.43l-.19-.11C2870.39,3364.31,2870.07,3364.18,2869.81,3364.05Z",
+//     transform: "translate(-2832.98 -3312.95)",
+//   },
+//   null,
+//   -1
+// );
+// const _hoisted_4$p = /* @__PURE__ */ createVNode(
+//   "path",
+//   {
+//     d: "M2869.81,3364.05c.26.13.58.26.83.4-.2-.11-.45-.22-.68-.32Z",
+//     transform: "translate(-2832.98 -3312.95)",
+//   },
+//   null,
+//   -1
+// );
+// const _hoisted_5$p = /* @__PURE__ */ createVNode(
+//   "path",
+//   {
+//     d: "M2870.87,3364.58h0l0,0Z",
+//     transform: "translate(-2832.98 -3312.95)",
+//   },
+//   null,
+//   -1
+// );
+// const _hoisted_6$l = /* @__PURE__ */ createVNode(
+//   "path",
+//   {
+//     d: "M3020.33,3479.42v58.29c0,1.2-.28,2.24-1.43,2.24H2835c-1.14,0-1.81-1-1.81-2.24v-58.29c0-.94-.23-1.87-.18-2.8a56.86,56.86,0,0,1,14.82-35.92c.26-.27.46-.55.72-.82a54.33,54.33,0,0,1,15-11.07l1-.49c1.54-.72,3.11-1.37,4.73-1.94l1.07-.37c1.45-.48,2.92-.89,4.42-1.24a74.56,74.56,0,0,0,5.71,5,77.66,77.66,0,0,0,16.43,9.85q1.65.74,3.33,1.38a73.21,73.21,0,0,0,26.69,5,73.41,73.41,0,0,0,15.32-1.91c.62-.13,1.25-.73,1.87-.73h2.79c2.43,0,4.83-1.55,7.2-2.49.94-.37,1.88-.61,2.81-1a62.83,62.83,0,0,0,13-7.22h0c.45,0,.9-.81,1.34-1.14a80.33,80.33,0,0,0,7.66-6.57c23.08,5.38,40.36,26.42,41.56,51.82C3020.45,3477.59,3020.33,3478.48,3020.33,3479.42Z",
+//     transform: "translate(-2832.98 -3312.95)",
+//   },
+//   null,
+//   -1
+// );
 function _sfc_render$y(_ctx, _cache, $props, $setup, $data, $options) {
   return (
     openBlock(),
@@ -22069,15 +22049,15 @@ function _sfc_render$y(_ctx, _cache, $props, $setup, $data, $options) {
         id: "Layer_1",
         "data-name": "Layer 1",
         xmlns: "http://www.w3.org/2000/svg",
-        viewBox: "0 0 187.43 227",
+        viewBox: "0 0 30 30",
       },
       [
         _hoisted_1$x,
         _hoisted_2$w,
-        _hoisted_3$t,
-        _hoisted_4$p,
-        _hoisted_5$p,
-        _hoisted_6$l,
+        // _hoisted_3$t,
+        // _hoisted_4$p,
+        // _hoisted_5$p,
+        // _hoisted_6$l,
       ],
       4
     )
@@ -22102,33 +22082,36 @@ const _hoisted_1$w = /* @__PURE__ */ createVNode(
 const _hoisted_2$v = /* @__PURE__ */ createVNode(
   "path",
   {
-    d: "M283,452.08l-8.46-7.4-24.19,20.74a5,5,0,0,0,3.37,1.32h58.56a5,5,0,0,0,3.36-1.32l-24.18-20.74Z",
-    transform: "translate(-248.8 -417.89)",
+    d: "M7.70937 8.75313H22.1644M7.70937 12.685H17.7262M7.70937 16.6175H13.2881M25.5362 3.4375H4.46375C4.13253 3.43849 3.81516 3.5705 3.58095 3.80471C3.34675 4.03892 3.21473 4.35628 3.21375 4.6875V26.5625L7.85 21.9256H25.5362C25.8675 21.9246 26.1848 21.7926 26.419 21.5584C26.6532 21.3242 26.7853 21.0068 26.7862 20.6756V4.6875C26.7853 4.35628 26.6532 4.03892 26.419 3.80471C26.1848 3.5705 25.8675 3.43849 25.5362 3.4375Z",
+    fill: "white",
+    stroke: "black",
+    "stroke-linecap": "round",
+    "stroke-linejoin": "round",
   },
   null,
   -1
 );
-const _hoisted_3$s = /* @__PURE__ */ createVNode(
-  "path",
-  {
-    d: "M315.65,419.21a4.91,4.91,0,0,0-3.37-1.32H253.72a4.87,4.87,0,0,0-3.36,1.33l32.64,28Z",
-    transform: "translate(-248.8 -417.89)",
-  },
-  null,
-  -1
-);
-const _hoisted_4$o = /* @__PURE__ */ createVNode(
-  "polygon",
-  { points: "0 4.29 0 44.88 23.61 24.81 0 4.29" },
-  null,
-  -1
-);
-const _hoisted_5$o = /* @__PURE__ */ createVNode(
-  "polygon",
-  { points: "44.78 24.81 68.39 44.88 68.39 4.28 44.78 24.81" },
-  null,
-  -1
-);
+// const _hoisted_3$s = /* @__PURE__ */ createVNode(
+//   "path",
+//   {
+//     d: "M315.65,419.21a4.91,4.91,0,0,0-3.37-1.32H253.72a4.87,4.87,0,0,0-3.36,1.33l32.64,28Z",
+//     transform: "translate(-248.8 -417.89)",
+//   },
+//   null,
+//   -1
+// );
+// const _hoisted_4$o = /* @__PURE__ */ createVNode(
+//   "polygon",
+//   { points: "0 4.29 0 44.88 23.61 24.81 0 4.29" },
+//   null,
+//   -1
+// );
+// const _hoisted_5$o = /* @__PURE__ */ createVNode(
+//   "polygon",
+//   { points: "44.78 24.81 68.39 44.88 68.39 4.28 44.78 24.81" },
+//   null,
+//   -1
+// );
 function _sfc_render$x(_ctx, _cache, $props, $setup, $data, $options) {
   return (
     openBlock(),
@@ -22142,9 +22125,9 @@ function _sfc_render$x(_ctx, _cache, $props, $setup, $data, $options) {
     `,
         id: "OBJECTS",
         xmlns: "http://www.w3.org/2000/svg",
-        viewBox: "0 0 68.39 48.85",
+        viewBox: "0 0 30 30",
       },
-      [_hoisted_1$w, _hoisted_2$v, _hoisted_3$s, _hoisted_4$o, _hoisted_5$o],
+      [_hoisted_1$w, _hoisted_2$v],
       4
     )
   );
@@ -22570,102 +22553,8 @@ const _hoisted_1$u = /* @__PURE__ */ createVNode(
 const _hoisted_2$t = /* @__PURE__ */ createVNode(
   "path",
   {
-    d: "M192.51,250.07h4.16a.67.67,0,0,0,.64-.44l4-10.25h-4.13l-5.23,9.68A.68.68,0,0,0,192.51,250.07Z",
-    transform: "translate(-191.36 -239.38)",
-  },
-  null,
-  -1
-);
-const _hoisted_3$q = /* @__PURE__ */ createVNode(
-  "path",
-  {
-    d: "M204.08,250.07h3.77a.91.91,0,0,0,.91-.85l.76-9.84H205.4L203.18,249A.92.92,0,0,0,204.08,250.07Z",
-    transform: "translate(-191.36 -239.38)",
-  },
-  null,
-  -1
-);
-const _hoisted_4$m = /* @__PURE__ */ createVNode(
-  "path",
-  {
-    d: "M215.45,250.07h3.48a1,1,0,0,0,1-1.29l-2.17-9.4h-4.13l.75,9.72A1,1,0,0,0,215.45,250.07Z",
-    transform: "translate(-191.36 -239.38)",
-  },
-  null,
-  -1
-);
-const _hoisted_5$m = /* @__PURE__ */ createVNode(
-  "path",
-  {
-    d: "M226.93,250.07h3.4a.88.88,0,0,0,.78-1.3L226,239.38H221.9l3.81,9.85A1.3,1.3,0,0,0,226.93,250.07Z",
-    transform: "translate(-191.36 -239.38)",
-  },
-  null,
-  -1
-);
-const _hoisted_6$j = /* @__PURE__ */ createVNode(
-  "path",
-  {
-    d: "M194.26,255.28a2.89,2.89,0,0,0,2.89-2.9v-.48a.62.62,0,0,0-.62-.62H192a.62.62,0,0,0-.62.62v.48A2.9,2.9,0,0,0,194.26,255.28Z",
-    transform: "translate(-191.36 -239.38)",
-  },
-  null,
-  -1
-);
-const _hoisted_7$i = /* @__PURE__ */ createVNode(
-  "path",
-  {
-    d: "M205.81,255.28a2.9,2.9,0,0,0,2.9-2.9v-.31a.79.79,0,0,0-.79-.79h-4.21a.79.79,0,0,0-.79.79v.31A2.9,2.9,0,0,0,205.81,255.28Z",
-    transform: "translate(-191.36 -239.38)",
-  },
-  null,
-  -1
-);
-const _hoisted_8$h = /* @__PURE__ */ createVNode(
-  "path",
-  {
-    d: "M215.25,251.28a.78.78,0,0,0-.78.79v.31a2.89,2.89,0,1,0,5.78,0v-.31a.78.78,0,0,0-.78-.79Z",
-    transform: "translate(-191.36 -239.38)",
-  },
-  null,
-  -1
-);
-const _hoisted_9$e = /* @__PURE__ */ createVNode(
-  "path",
-  {
-    d: "M231,251.28H226.8a.79.79,0,0,0-.79.79v.31a2.9,2.9,0,0,0,2.9,2.9h0a2.9,2.9,0,0,0,2.89-2.9v-.31A.79.79,0,0,0,231,251.28Z",
-    transform: "translate(-191.36 -239.38)",
-  },
-  null,
-  -1
-);
-const _hoisted_10$c = /* @__PURE__ */ createVNode(
-  "path",
-  {
-    d: "M211.59,271.1H191.85s-.27,2.89,3.07,2.89h33.33c3.34,0,3.07-2.89,3.07-2.89Z",
-    transform: "translate(-191.36 -239.38)",
-  },
-  null,
-  -1
-);
-const _hoisted_11$c = /* @__PURE__ */ createVNode(
-  "path",
-  {
-    d: "M226.16,256.55v10.74H210.92v-6.24a.92.92,0,0,0-.92-.92h-4.6a.92.92,0,0,0-.92.92v6.24H197V256.55H194v13.28h35.27V256.55Z",
-    transform: "translate(-191.36 -239.38)",
-  },
-  null,
-  -1
-);
-const _hoisted_12$b = /* @__PURE__ */ createVNode(
-  "rect",
-  {
-    x: "23.44",
-    y: "18.44",
-    width: "5.15",
-    height: "5.15",
-    rx: "0.91",
-    ry: "0.91",
+    d: "M5.56875 2.53125C5.74479 2.32544 5.96332 2.16021 6.20931 2.04692C6.45531 1.93363 6.72292 1.87498 6.99375 1.875H23.0063C23.2771 1.87498 23.5447 1.93363 23.7907 2.04692C24.0367 2.16021 24.2552 2.32544 24.4312 2.53125L29.3231 8.23875C29.7599 8.74844 30 9.39752 30 10.0687V10.5469C30.0001 11.475 29.7102 12.3799 29.1709 13.1352C28.6316 13.8905 27.8698 14.4584 26.9919 14.7595C26.114 15.0607 25.164 15.08 24.2746 14.8149C23.3852 14.5497 22.6009 14.0133 22.0312 13.2806C21.6153 13.8164 21.0822 14.25 20.4728 14.548C19.8634 14.846 19.194 15.0006 18.5156 15C17.8373 15.0008 17.1677 14.8462 16.5583 14.5482C15.949 14.2501 15.4159 13.8165 15 13.2806C14.5841 13.8165 14.051 14.2501 13.4417 14.5482C12.8323 14.8462 12.1627 15.0008 11.4844 15C10.806 15.0008 10.1365 14.8462 9.52709 14.5482C8.91771 14.2501 8.38464 13.8165 7.96875 13.2806C7.39911 14.0133 6.61478 14.5497 5.72538 14.8149C4.83599 15.08 3.88597 15.0607 3.00811 14.7595C2.13025 14.4584 1.36842 13.8905 0.829092 13.1352C0.289766 12.3799 -0.000102372 11.475 2.7121e-08 10.5469V10.0687C2.36391e-05 9.39752 0.240106 8.74844 0.676875 8.23875L5.57062 2.52937L5.56875 2.53125ZM8.90625 10.5469C8.90625 11.2306 9.17787 11.8864 9.66137 12.3699C10.1449 12.8534 10.8006 13.125 11.4844 13.125C12.1681 13.125 12.8239 12.8534 13.3074 12.3699C13.7909 11.8864 14.0625 11.2306 14.0625 10.5469C14.0625 10.2982 14.1613 10.0598 14.3371 9.88396C14.5129 9.70815 14.7514 9.60938 15 9.60938C15.2486 9.60938 15.4871 9.70815 15.6629 9.88396C15.8387 10.0598 15.9375 10.2982 15.9375 10.5469C15.9375 11.2306 16.2091 11.8864 16.6926 12.3699C17.1761 12.8534 17.8319 13.125 18.5156 13.125C19.1994 13.125 19.8551 12.8534 20.3386 12.3699C20.8221 11.8864 21.0938 11.2306 21.0938 10.5469C21.0938 10.2982 21.1925 10.0598 21.3683 9.88396C21.5442 9.70815 21.7826 9.60938 22.0312 9.60938C22.2799 9.60938 22.5183 9.70815 22.6942 9.88396C22.87 10.0598 22.9688 10.2982 22.9688 10.5469C22.9688 11.2306 23.2404 11.8864 23.7239 12.3699C24.2074 12.8534 24.8631 13.125 25.5469 13.125C26.2306 13.125 26.8864 12.8534 27.3699 12.3699C27.8534 11.8864 28.125 11.2306 28.125 10.5469V10.0687C28.125 9.8453 28.0452 9.6292 27.9 9.45938L23.0063 3.75H6.99375L2.1 9.45938C1.95478 9.6292 1.87498 9.8453 1.875 10.0687V10.5469C1.875 11.2306 2.14662 11.8864 2.63012 12.3699C3.11361 12.8534 3.76936 13.125 4.45312 13.125C5.13689 13.125 5.79264 12.8534 6.27613 12.3699C6.75963 11.8864 7.03125 11.2306 7.03125 10.5469C7.03125 10.2982 7.13002 10.0598 7.30584 9.88396C7.48165 9.70815 7.72011 9.60938 7.96875 9.60938C8.21739 9.60938 8.45585 9.70815 8.63166 9.88396C8.80748 10.0598 8.90625 10.2982 8.90625 10.5469ZM2.8125 15.9375C3.06114 15.9375 3.2996 16.0363 3.47541 16.2121C3.65123 16.3879 3.75 16.6264 3.75 16.875V28.125H5.625V18.75C5.625 18.2527 5.82254 17.7758 6.17417 17.4242C6.52581 17.0725 7.00272 16.875 7.5 16.875H13.125C13.6223 16.875 14.0992 17.0725 14.4508 17.4242C14.8025 17.7758 15 18.2527 15 18.75V28.125H26.25V16.875C26.25 16.6264 26.3488 16.3879 26.5246 16.2121C26.7004 16.0363 26.9389 15.9375 27.1875 15.9375C27.4361 15.9375 27.6746 16.0363 27.8504 16.2121C28.0262 16.3879 28.125 16.6264 28.125 16.875V28.125H29.0625C29.3111 28.125 29.5496 28.2238 29.7254 28.3996C29.9012 28.5754 30 28.8139 30 29.0625C30 29.3111 29.9012 29.5496 29.7254 29.7254C29.5496 29.9012 29.3111 30 29.0625 30H0.9375C0.68886 30 0.450403 29.9012 0.274587 29.7254C0.0987721 29.5496 2.7121e-08 29.3111 2.7121e-08 29.0625C2.7121e-08 28.8139 0.0987721 28.5754 0.274587 28.3996C0.450403 28.2238 0.68886 28.125 0.9375 28.125H1.875V16.875C1.875 16.6264 1.97377 16.3879 2.14959 16.2121C2.3254 16.0363 2.56386 15.9375 2.8125 15.9375ZM7.5 28.125H13.125V18.75H7.5V28.125ZM16.875 18.75C16.875 18.2527 17.0725 17.7758 17.4242 17.4242C17.7758 17.0725 18.2527 16.875 18.75 16.875H22.5C22.9973 16.875 23.4742 17.0725 23.8258 17.4242C24.1775 17.7758 24.375 18.2527 24.375 18.75V24.375C24.375 24.8723 24.1775 25.3492 23.8258 25.7008C23.4742 26.0525 22.9973 26.25 22.5 26.25H18.75C18.2527 26.25 17.7758 26.0525 17.4242 25.7008C17.0725 25.3492 16.875 24.8723 16.875 24.375V18.75ZM22.5 18.75H18.75V24.375H22.5V18.75Z",
+    // transform: "translate(-191.36 -239.38)",
   },
   null,
   -1
@@ -22683,22 +22572,9 @@ function _sfc_render$v(_ctx, _cache, $props, $setup, $data, $options) {
     `,
         id: "OBJECTS",
         xmlns: "http://www.w3.org/2000/svg",
-        viewBox: "0 0 40.43 34.61",
+        viewBox: "0 0 30 30",
       },
-      [
-        _hoisted_1$u,
-        _hoisted_2$t,
-        _hoisted_3$q,
-        _hoisted_4$m,
-        _hoisted_5$m,
-        _hoisted_6$j,
-        _hoisted_7$i,
-        _hoisted_8$h,
-        _hoisted_9$e,
-        _hoisted_10$c,
-        _hoisted_11$c,
-        _hoisted_12$b,
-      ],
+      [_hoisted_1$u, _hoisted_2$t],
       4
     )
   );
@@ -22830,61 +22706,11 @@ const _hoisted_2$r = /* @__PURE__ */ createVNode(
   "Icon_history",
   -1
 );
-const _hoisted_3$o = /* @__PURE__ */ createVNode(
-  "rect",
-  {
-    x: "5.83",
-    y: "28.39",
-    width: "3.82",
-    height: "3.82",
-    rx: "0.51",
-    ry: "0.51",
-  },
-  null,
-  -1
-);
-const _hoisted_4$k = /* @__PURE__ */ createVNode(
-  "rect",
-  {
-    x: "5.83",
-    y: "21.69",
-    width: "3.82",
-    height: "3.82",
-    rx: "0.51",
-    ry: "0.51",
-  },
-  null,
-  -1
-);
-const _hoisted_5$k = /* @__PURE__ */ createVNode(
-  "rect",
-  {
-    x: "5.83",
-    y: "14.98",
-    width: "3.82",
-    height: "3.82",
-    rx: "0.51",
-    ry: "0.51",
-  },
-  null,
-  -1
-);
 const _hoisted_6$h = /* @__PURE__ */ createVNode(
   "path",
   {
     class: "cls-1",
-    d: "M307.1,253.82v-8.7a5,5,0,0,0-5-5H297.7v-.86a1.5,1.5,0,0,0-3,0v.85H283.6v-.86a1.5,1.5,0,0,0-3,0v.85h-4.38a5,5,0,0,0-5,5V271a5,5,0,0,0,5,5h12.92a14.26,14.26,0,1,0,18-22.16Zm-32.9-8.7a2,2,0,0,1,2-2h4.38v.85a1.5,1.5,0,1,0,3,0v-.85h11.11v.85a1.5,1.5,0,1,0,3,0v-.85h4.38a2,2,0,0,1,2,2v2H274.2Zm10.05,11.44h2.45a14.26,14.26,0,0,0-.28,16.44H276.23a2,2,0,0,1-2-2V250.14h29.91V252a14.29,14.29,0,0,0-16,2.9c-.19.2-.38.39-.56.6v-2.24a.51.51,0,0,0-.51-.51h-2.81a.5.5,0,0,0-.5.51v2.8A.5.5,0,0,0,284.25,256.56Zm14,19.49A11.08,11.08,0,1,1,309.29,265,11,11,0,0,1,298.21,276.05Z",
-    transform: "translate(-271.22 -237.75)",
-  },
-  null,
-  -1
-);
-const _hoisted_7$g = /* @__PURE__ */ createVNode(
-  "path",
-  {
-    class: "cls-1",
-    d: "M299.8,264.4v-4.92a1.59,1.59,0,0,0-3.18,0V265a1.6,1.6,0,0,0,.38,1l4.93,5.83a1.59,1.59,0,0,0,2.43-2.05Z",
-    transform: "translate(-271.22 -237.75)",
+    d: "M26.25 13.8875V6.25C26.25 5.58696 25.9866 4.95107 25.5178 4.48223C25.0489 4.01339 24.413 3.75 23.75 3.75H18.525C18 2.3 16.625 1.25 15 1.25C13.375 1.25 12 2.3 11.475 3.75H6.25C4.875 3.75 3.75 4.875 3.75 6.25V23.75C3.75 24.413 4.01339 25.0489 4.48223 25.5178C4.95107 25.9866 5.58696 26.25 6.25 26.25H13.8875C15.4625 27.8 17.6125 28.75 20 28.75C24.8375 28.75 28.75 24.8375 28.75 20C28.75 17.6125 27.8 15.4625 26.25 13.8875ZM15 3.75C15.6875 3.75 16.25 4.3125 16.25 5C16.25 5.6875 15.6875 6.25 15 6.25C14.3125 6.25 13.75 5.6875 13.75 5C13.75 4.3125 14.3125 3.75 15 3.75ZM6.25 23.75V6.25H8.75V8.75H21.25V6.25H23.75V12.1C22.6125 11.5625 21.35 11.25 20 11.25H8.75V13.75H13.875C13.125 14.4625 12.55 15.3125 12.1 16.25H8.75V18.75H11.35C11.2875 19.1625 11.25 19.575 11.25 20C11.25 21.35 11.5625 22.6125 12.1 23.75H6.25ZM20 26.25C16.55 26.25 13.75 23.45 13.75 20C13.75 16.55 16.55 13.75 20 13.75C23.45 13.75 26.25 16.55 26.25 20C26.25 23.45 23.45 26.25 20 26.25ZM20.625 20.3125L24.2 22.425L23.2625 23.95L18.75 21.25V15H20.625V20.3125Z",
   },
   null,
   -1
@@ -22902,17 +22728,9 @@ function _sfc_render$t(_ctx, _cache, $props, $setup, $data, $options) {
     `,
         id: "OBJECTS",
         xmlns: "http://www.w3.org/2000/svg",
-        viewBox: "0 0 41.26 41.48",
+        viewBox: "0 0 30 30",
       },
-      [
-        _hoisted_1$s,
-        _hoisted_2$r,
-        _hoisted_3$o,
-        _hoisted_4$k,
-        _hoisted_5$k,
-        _hoisted_6$h,
-        _hoisted_7$g,
-      ],
+      [_hoisted_1$s, _hoisted_2$r, _hoisted_6$h],
       4
     )
   );
@@ -23166,8 +22984,8 @@ const _hoisted_5$i = { style: { width: "250px !important" } };
 const _hoisted_6$f = { class: "mulah-overview__card__promotion--points" };
 const _hoisted_7$e = {
   style: {
-    "margin-top": "15px !important",
-    "margin-bottom": "10px !important",
+    "margin-top": "24px !important",
+    "margin-bottom": "24px !important",
   },
 };
 const _hoisted_8$e = /* @__PURE__ */ createVNode(
@@ -23230,7 +23048,7 @@ function _sfc_render$q(_ctx, _cache, $props, $setup, $data, $options) {
                         createVNode(
                           "p",
                           {
-                            style: `color: ${$props.styling.promotion_color} !important`,
+                            // style: `color: ${$props.styling.promotion_color} !important`,
                           },
                           toDisplayString(promotion.title),
                           5
@@ -23252,7 +23070,7 @@ function _sfc_render$q(_ctx, _cache, $props, $setup, $data, $options) {
                         createVNode(
                           "em",
                           {
-                            style: `color: ${$props.styling.point_color} !important`,
+                            // style: `color: ${$props.styling.point_color} !important`,
                           },
                           toDisplayString(promotion.cost),
                           5
@@ -23264,13 +23082,13 @@ function _sfc_render$q(_ctx, _cache, $props, $setup, $data, $options) {
                           style: [
                             {
                               "padding-left": "5px",
-                              "font-style": "italic !important",
-                              width: "100% !important",
+                              // "font-style": "italic !important",
+                              // width: "100% !important",
                             },
-                            `color: ${$props.styling.points_color} !important`,
+                            // `color: ${$props.styling.points_color} !important`,
                           ],
                         },
-                        " points ",
+                        " Points ",
                         4
                       ),
                     ]),
@@ -23290,7 +23108,6 @@ function _sfc_render$q(_ctx, _cache, $props, $setup, $data, $options) {
             onClick:
               _cache[1] || (_cache[1] = ($event) => $props.changePath("tnc")),
             style: {
-              color: "grey !important",
               "font-size": "0.9em !important",
             },
           },
@@ -23304,7 +23121,9 @@ function _sfc_render$q(_ctx, _cache, $props, $setup, $data, $options) {
             {
               onClick:
                 _cache[2] || (_cache[2] = ($event) => $props.changeTab("home")),
-              style: `color: ${$props.styling.back_font_color} !important; background-color: ${$props.styling.back_color} !important; border-color: ${$props.styling.back_color} !important;margin-left: 0!important;width:100% !important;`,
+              style: `
+              margin-left: 0!important;
+              width:100% !important;`,
             },
             " Back ",
             4
@@ -25714,8 +25533,8 @@ const _hoisted_8$b = {
 };
 const _hoisted_9$a = {
   style: {
-    "margin-top": "15px !important",
-    "margin-bottom": "10px !important",
+    "margin-top": "24px !important",
+    "margin-bottom": "24px !important",
   },
 };
 const _hoisted_10$9 = /* @__PURE__ */ createVNode(
@@ -25884,7 +25703,7 @@ function _sfc_render$m(_ctx, _cache, $props, $setup, $data, $options) {
           {
             onClick:
               _cache[1] || (_cache[1] = ($event) => $props.changePath("tnc")),
-            style: `color: ${$props.styling.tnc_color} !important; font-size: 0.9em !important`,
+            style: `font-size: 0.9em !important`,
           },
           [_hoisted_10$9],
           4
@@ -25898,9 +25717,6 @@ function _sfc_render$m(_ctx, _cache, $props, $setup, $data, $options) {
               onClick:
                 _cache[2] || (_cache[2] = ($event) => $props.changeTab("home")),
               style: `
-          color: ${$props.styling.back_font_color} !important; 
-          background-color: ${$props.styling.back_color} !important; 
-          border-color: ${$props.styling.back_color} !important;
           margin-left: 0!important;
           `,
             },
@@ -25911,9 +25727,6 @@ function _sfc_render$m(_ctx, _cache, $props, $setup, $data, $options) {
             "button",
             {
               style: `
-          color: ${$props.styling.check_font_color} !important; 
-          background-color: ${$props.styling.check_color} !important; 
-          border-color: ${$props.styling.check_color} !important;
           `,
               onClick:
                 _cache[3] ||
@@ -31718,7 +31531,7 @@ const _hoisted_4$9 = {
 const _hoisted_5$9 = /* @__PURE__ */ createVNode(
   "p",
   null,
-  "- No Active Sms -",
+  "No Active SMS",
   -1
 );
 const _hoisted_6$8 = { class: "promotion-container" };
@@ -31737,12 +31550,7 @@ const _hoisted_15$4 = {
   key: 0,
   class: "mulah-sr__empty",
 };
-const _hoisted_16$4 = /* @__PURE__ */ createVNode(
-  "p",
-  null,
-  "- No Past Sms -",
-  -1
-);
+const _hoisted_16$4 = /* @__PURE__ */ createVNode("p", null, "No Past SMS", -1);
 const _hoisted_17$4 = { class: "promotion-container used-container" };
 const _hoisted_18$4 = { class: "gift-container" };
 const _hoisted_19$3 = { class: "title-container" };
@@ -31981,11 +31789,7 @@ function _sfc_render$b(_ctx, _cache, $props, $setup, $data, $options) {
             "button",
             {
               id: "mulah-sr__button",
-              style: {
-                background: $setup.primaryTheme.color,
-                borderColor: $setup.primaryTheme.color,
-                color: $setup.buttonText.color,
-              },
+              style: {},
               onClick:
                 _cache[3] || (_cache[3] = ($event) => $setup.changeTab("home")),
             },
@@ -35393,9 +35197,9 @@ function _sfc_render$a(_ctx, _cache, $props, $setup, $data, $options) {
               "button",
               {
                 style: {
-                  background: $setup.primaryTheme.color,
-                  borderColor: $setup.primaryTheme.color,
-                  color: $setup.buttonText.color,
+                  // background: $setup.primaryTheme.color,
+                  // borderColor: $setup.primaryTheme.color,
+                  // color: $setup.buttonText.color,
                 },
                 onClick:
                   _cache[1] ||
@@ -35824,8 +35628,8 @@ const _hoisted_20$2 = {
 };
 const _hoisted_21$2 = {
   style: {
-    "margin-top": "15px !important",
-    "margin-bottom": "10px !important",
+    "margin-top": "24px !important",
+    "margin-bottom": "24px !important",
   },
 };
 const _hoisted_22$2 = /* @__PURE__ */ createVNode(
@@ -36069,7 +35873,6 @@ function _sfc_render$7(_ctx, _cache, $props, $setup, $data, $options) {
               onClick:
                 _cache[3] || (_cache[3] = ($event) => $setup.changePath("tnc")),
               style: {
-                color: "grey !important",
                 "font-size": "0.9em !important",
               },
             },
@@ -36568,7 +36371,7 @@ function _sfc_render$6(_ctx, _cache, $props, $setup, $data, $options) {
                             createVNode(
                               "p",
                               {
-                                style: `color: ${$setup.overviewStyle.header_color} !important`,
+                                // style: `color: ${$setup.overviewStyle.header_color} !important`,
                                 class: "mulah-overview__customer-name",
                               },
                               toDisplayString(
@@ -36579,7 +36382,7 @@ function _sfc_render$6(_ctx, _cache, $props, $setup, $data, $options) {
                             createVNode(
                               "p",
                               {
-                                style: `color: ${$setup.overviewStyle.text_color} !important`,
+                                // style: `color: ${$setup.overviewStyle.text_color} !important`,
                                 class: "mulah-overview__customer-phone",
                               },
                               toDisplayString(
@@ -36592,7 +36395,7 @@ function _sfc_render$6(_ctx, _cache, $props, $setup, $data, $options) {
                             createVNode(
                               "p",
                               {
-                                style: `color: ${$setup.overviewStyle.text_color} !important`,
+                                // style: `color: ${$setup.overviewStyle.text_color} !important`,
                                 class: "mulah-overview__customer-member",
                               },
                               toDisplayString(
@@ -36654,7 +36457,7 @@ function _sfc_render$6(_ctx, _cache, $props, $setup, $data, $options) {
                               "p",
                               {
                                 class: "points",
-                                style: `color: ${$setup.overviewStyle.header_color} !important`,
+                                // style: `color: ${$setup.overviewStyle.header_color} !important`,
                               },
                               toDisplayString($setup.availPoints),
                               5
@@ -36662,7 +36465,7 @@ function _sfc_render$6(_ctx, _cache, $props, $setup, $data, $options) {
                             createVNode(
                               "p",
                               {
-                                style: `color: ${$setup.overviewStyle.text_color} !important`,
+                                // style: `color: ${$setup.overviewStyle.text_color} !important`,
                               },
                               " Points Balance ",
                               4
@@ -36958,7 +36761,6 @@ function _sfc_render$5(_ctx, _cache, $props, $setup, $data, $options) {
           "div",
           {
             class: "mulah-history__logo-container",
-            style: `background: ${$setup.data.brand.logoBackground}`,
           },
           [
             createVNode(
@@ -37484,11 +37286,11 @@ function _sfc_render$3(_ctx, _cache, $props, $setup, $data, $options) {
     createBlock("div", _hoisted_1$2, [
       createVNode("div", _hoisted_2$2, [
         createVNode("div", _hoisted_3$1, [
-          createVNode("p", { style: $setup.headerColor }, "Customer Info", 4),
+          createVNode("p", { style: {} }, "Customer Info", 4),
         ]),
         createVNode("div", _hoisted_4$1, [
           createVNode("div", _hoisted_5$1, [
-            createVNode("p", { style: $setup.headerColor }, "Name", 4),
+            createVNode("p", { style: {} }, "Name", 4),
             withDirectives(
               createVNode(
                 "input",
@@ -37515,7 +37317,7 @@ function _sfc_render$3(_ctx, _cache, $props, $setup, $data, $options) {
               : createCommentVNode("", true),
           ]),
           createVNode("div", _hoisted_8, [
-            createVNode("p", { style: $setup.headerColor }, "Phone Number", 4),
+            createVNode("p", { style: {} }, "Phone Number", 4),
             withDirectives(
               createVNode(
                 "input",
@@ -37538,7 +37340,7 @@ function _sfc_render$3(_ctx, _cache, $props, $setup, $data, $options) {
             ),
           ]),
           createVNode("div", _hoisted_9, [
-            createVNode("p", { style: $setup.headerColor }, "Birthday", 4),
+            createVNode("p", { style: {} }, "Birthday", 4),
             createVNode("div", _hoisted_10, [
               createVNode("div", _hoisted_11, [
                 withDirectives(
@@ -37606,7 +37408,7 @@ function _sfc_render$3(_ctx, _cache, $props, $setup, $data, $options) {
             ]),
           ]),
           createVNode("div", _hoisted_14, [
-            createVNode("p", { style: $setup.headerColor }, "Email", 4),
+            createVNode("p", { style: {} }, "Email", 4),
             withDirectives(
               createVNode(
                 "input",
@@ -37637,14 +37439,14 @@ function _sfc_render$3(_ctx, _cache, $props, $setup, $data, $options) {
             createVNode("div", _hoisted_18, [
               createVNode(
                 "p",
-                { style: $setup.headerColor },
+                { style: {} },
                 [
                   _hoisted_19,
                   createVNode(
                     "span",
                     {
                       class: "mulah-personal-info__registered__date",
-                      style: { ...$setup.primaryTheme },
+                      // style: { ...$setup.primaryTheme },
                     },
                     toDisplayString($setup.registeredOn),
                     5
@@ -37663,7 +37465,7 @@ function _sfc_render$3(_ctx, _cache, $props, $setup, $data, $options) {
                 _cache[7] ||
                 (_cache[7] = (...args) =>
                   $setup.update && $setup.update(...args)),
-              style: { ...$setup.primaryTheme, ...$setup.buttonText },
+              style: { ...$setup.buttonText },
             },
             " Update ",
             4
@@ -37754,12 +37556,12 @@ const _sfc_main$2 = {
           styling.main_background,
           "important"
         );
-        headerColor.value = { "--header-color": `${styling.header_color}` };
-        textColor.value = { "--text-color": `${styling.text_color}` };
-        buttonStyle.value = {
-          color: `${styling.button_font_color} !important`,
-          background: `${styling.button_background_color} !important`,
-        };
+        // headerColor.value = { "--header-color": `${styling.header_color}` };
+        // textColor.value = { "--text-color": `${styling.text_color}` };
+        // buttonStyle.value = {
+        //   color: `${styling.button_font_color} !important`,
+        //   background: `${styling.button_background_color} !important`,
+        // };
       }
     });
     return {
